@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>سبد خرید | چرم کاکتوس</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+
+  <header class="bg-green-900 text-white p-6 flex justify-between items-center">
+    <h1 class="text-xl font-bold">چرم کاکتوس</h1>
+    <nav>
+      <a href="index.html" class="ml-4 hover:text-yellow-300">خانه</a>
+      <a href="products.html" class="ml-4 hover:text-yellow-300">محصولات</a>
+      <a href="contact.html" class="ml-4 hover:text-yellow-300">تماس با ما</a>
+    </nav>
+  </header>
+
+  <main class="p-8 max-w-xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6 text-center">سبد خرید شما</h2>
+    <ul id="cartList" class="space-y-2 text-lg"></ul>
+  </main>
+
+  <footer class="bg-green-900 text-white p-6 text-center">
+    <p>© 2025 چرم کاکتوس</p>
+  </footer>
+
+  <script>
+    const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
+    const cartList = document.getElementById("cartList");
+
+    cartItems.forEach(item => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      cartList.appendChild(li);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>درباره ما | چرم کاکتوس</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+
+  <header class="bg-green-900 text-white p-6 flex justify-between items-center">
+    <h1 class="text-xl font-bold">چرم کاکتوس</h1>
+    <nav>
+      <a href="index.html" class="ml-4 hover:text-yellow-300">خانه</a>
+      <a href="products.html" class="ml-4 hover:text-yellow-300">محصولات</a>
+      <a href="contact.html" class="ml-4 hover:text-yellow-300">تماس با ما</a>
+    </nav>
+  </header>
+
+  <main class="p-8 max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">درباره چرم کاکتوس</h2>
+    <p class="mb-4">ما در چرم کاکتوس با الهام از طبیعت مقاوم و زیبای کاکتوس، چرم‌هایی با کیفیت بالا و طراحی مدرن تولید می‌کنیم. هدف ما ارائه محصولاتی بادوام، زیبا و سازگار با محیط زیست است.</p>
+    <p>تیم ما متشکل از طراحان، صنعتگران و عاشقان چرم است که با عشق کار می‌کنند تا بهترین تجربه را برای شما فراهم کنند.</p>
+  </main>
+
+  <footer class="bg-green-900 text-white p-6 text-center">
+    <p>© 2025 چرم کاکتوس</p>
+  </footer>
+
+</body>
+</html>
